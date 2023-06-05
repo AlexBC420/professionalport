@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width ,initial-scale=1">
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> Alex Lambert Portfolio </title>
+    </head>
+    <body> 
+        <header class="header-main"> <!--I created a main header for logos and navigation that is different for the home header which will introduce the user to the page-->
+        <div class="navigation">
+        <nav> <!--Is this the appropriate way to code the navigation-->
+            <!--Would like to make a fancy navigation that utilizes css design and image of something the represents me-->
+            <ul> 
+                <li><a href="#alexhome">Home</a></li>
+                <li ><a href="#aboutme">About Me</a></li>
+                <li ><a href="#mywork">My Work</a></li>
+                <li ><a href="#mycontacts">Contacts</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="logo">
+            <img src="Alexandria.jpg" alt="Logo with the words: Alexandria Lambert">
+            <!--logo image-->
+        </div>
+        </header>
+        <!-- Add an image <img src="" alt=""-->
+        <header>
+        <div class="home" id="alexhome">
+            <h1> Hello Friends. </h1>
+        </div>
+        </header>
+        <div class="about" id="aboutme"> 
+            <h2>Hey! My name is Alexandria. I am learning web developement.</h2>
+            <p>I have been coding since 2022. I started with FREECODECAMP then I enrolled in G-Code House BootCamp in 2023. I enjoy the creative ascpects of coding as well as its logical side. I discovered computer programing when I took a mini-bootcamp in 5th grade. I created animations on "Sratch" utilizing the basic fundamental of coding.</p>
+        </div>
+           
+        <div class="work" id="mywork">
+            <h2>Hightlighted Projects:</h2>
+            <p>These are some of my works:</p> 
+            <!--ADD CSS GRID 2X2-->
+                <div class="projects">
+                    <div class="box">A</div>
+                    <div class="box">B</div>
+                    <div class="box">C</div>
+                    <div class="box">D</div>
+                </div>
+
+            <p>Take a look at my <a href="https://www.linkedin.com/in/alexandria-lambert-5a93a3231" target="_blank">Linkedin Profile</a></p>
+            <p>Want to view more of my projects? Here is my <a href="https://github.com/AlexBC420" target="_blank">Github</a></p>
+        </div>
+            
+        <div class="contact" id="mycontacts">
+            <h2> If you like what you saw, please contact me.</h2>
+            <span>These are my contacts</span>
+            <h2>
+            <fieldset>
+                <form action="action-page.php" method="POST">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                <br>
+                <label for="yemail">Your Email:</label> 
+                <input type="text" id="yemail" name="yemail" placeholder="john@example.com" required>
+                <br>
+                <!--I would to make the message box larger-->
+                <label for="ymessage">Your Message:</label><br>
+                <!--Should I add textarea instead of text input to be able to customized the text box to fit whole messages -->
+                <textarea id="ymessage" name="ymessage" row="4" cols="40" placeholder="Email Me Here"></textarea>
+                <br> 
+                <input type="submit" value="Send Email">
+            </form>
+         </fieldset>
+            
+        </div>
+    <div class="botnav">
+       <footer>
+        <p></p>  
+        <!--Needs to be horizontal-->
+        <!--WHAT THINGS DOES A TYPICAL FOOTER HAVE?-->
+        <nav>
+            <ul> 
+                <li><a href="#alexhome">Home</a></li>
+                <li ><a href="#aboutme">About Me</a></li>
+                <li ><a href="#mywork">My Work</a></li>
+                <li ><a href="#mycontacts">Contacts</a></li>
+            </ul>
+        </nav>
+       </footer>     
+    </div>
+    </body>
+</html>
